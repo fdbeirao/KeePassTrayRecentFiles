@@ -101,5 +101,11 @@ namespace TrayRecentFiles {
                 foreach (ToolStripItem mnuItem in m_menuFileRecent.DropDownItems)
                     mnuItem.Click -= EnsureMainWindowVisible;
         }
+
+        public override string UpdateUrl {
+            get {
+                return @"https://raw.githubusercontent.com/fdbeirao/KeePassTrayRecentFiles/master/pluginVersion";
+            }
+        }
     }
 }
