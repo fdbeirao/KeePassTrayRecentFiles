@@ -100,14 +100,6 @@ namespace TrayRecentFiles {
             if (m_menuFileRecent != null)
                 foreach (ToolStripItem mnuItem in m_menuFileRecent.DropDownItems)
                     mnuItem.Click -= EnsureMainWindowVisible;
-            
-            base.Terminate();
-        }
-
-        public override string UpdateUrl {
-            get {
-                return @"https://raw.githubusercontent.com/fdbeirao/KeePassTrayRecentFiles/master/pluginVersion";
-            }
         }
     }
 }
