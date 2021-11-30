@@ -8,6 +8,19 @@ I believe this is a very useful plugin for people who use more than one KeePass 
 ## Instalation
 As per [KeePass's documentation](http://keepass.info/help/v2/plugins.html), in order to **install** this plugin you should copy the [TrayRecentFiles.plgx](TrayRecentFiles.plgx) to your KeePass folder (usually %ProgramFiles% (x86)\KeePass Password Safe 2).
 
+#### Chocolatey 📦 
+Or you can [use Chocolatey to install](https://community.chocolatey.org/packages/keepass-plugin-trayrecent#install) it in a more automated manner:
+
+```
+choco install keepass-plugin-trayrecent
+```
+
+To [upgrade KeePass Plugin KeePassTrayRecentFiles](https://community.chocolatey.org/packages/keepass-plugin-trayrecent#upgrade) to the [latest release version](https://community.chocolatey.org/packages/keepass-plugin-trayrecent#versionhistory) for enjoying the newest features, run the following command from the command line or from PowerShell:
+
+```
+choco upgrade keepass-plugin-trayrecent
+```
+
 ## Screenshots
 ![KeePassMainWindowOpenRecentFiles](imgs/KeePassMainWindowOpenRecentFiles.png)
 
